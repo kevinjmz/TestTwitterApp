@@ -5,7 +5,7 @@ This app utilizes two APIs -- Twitter REST API-- and --Google Speech Recognition
 
 HOW IT WORKS:
 1.-The app either recognizes a previously authenticated Twitter and goes straight to the main activity 
-![Alt text](WhatsApp Image 2017-11-30 at 9.57.16 AM (1).jpeg?raw=true "Optional Title")
+![Alt text](https://github.com/kevinjmz/TestTwitterApp/blob/master/WhatsApp%20Image%202017-11-30%20at%209.57.16%20AM%20(5).jpeg?raw=true "Optional Title")
 OR
 authenticates the user according to a previously created Twitter account.
 2.-Displays the a "Hello"+username message along with a "LOG OUT" button and a "Record" button.
