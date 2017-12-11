@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.dyna.kevin.testtwitterapp">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -18,9 +18,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="@string/apiKey"/>
+            android:value="@string/apiKey" />
+
+        <activity android:name=".TweetComposer" />
+        <activity android:name=".EditTweet"></activity>
     </application>
 
 </manifest>
